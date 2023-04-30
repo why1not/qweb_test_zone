@@ -1,0 +1,16 @@
+/* Портретные телефоны и меньше */
+@media (max-width: 360px) {
+    body {
+        background-color: rgb(17, 142, 176);
+    }
+
+    body::before {
+        content: "Портретные телефоны и меньше";
+        color: rgb(0, 0, 0);
+        background-color: gold;
+        padding: 1vh;
+        font-family: monospace;
+    }
+
+
+}

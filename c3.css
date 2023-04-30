@@ -1,0 +1,16 @@
+/* Портретные планшеты и маленькие настольные компьютеры */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-color: rgb(191, 255, 0);
+    }
+
+    body::before {
+        content: "Портретные планшеты и маленькие настольные компьютеры ";
+        color: rgb(0, 0, 0);
+        background-color: gold;
+        padding: 1vh;
+        font-family: monospace;
+    }
+
+
+}

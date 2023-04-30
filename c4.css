@@ -1,0 +1,16 @@
+/* Альбомные телефоны и портретные планшеты */
+@media (max-width: 767px) {
+    body {
+        background-color: rgb(255, 0, 106);
+    }
+
+    body::before {
+        content: "Альбомные телефоны и портретные планшеты";
+        color: rgb(0, 0, 0);
+        background-color: gold;
+        padding: 1vh;
+        font-family: monospace;
+    }
+
+
+}

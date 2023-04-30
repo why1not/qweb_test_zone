@@ -1,0 +1,16 @@
+/* Альбомные планшеты и средние настольные компьютеры */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background-color: rgb(68, 68, 79);
+    }
+
+    body::before {
+        content: "Альбомные планшеты и средние настольные компьютеры";
+        color: rgb(0, 0, 0);
+        background-color: gold;
+        padding: 1vh;
+        font-family: monospace;
+    }
+
+
+}

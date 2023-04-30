@@ -1,0 +1,15 @@
+/* Большие настольные компьютеры и ноутбуки */
+@media (min-width: 1200px) {
+    body{
+        background-color: blue;
+    }
+    body::before {
+        content: "Большие настольные компьютеры и ноутбуки";
+        color: rgb(0, 0, 0);
+        background-color: gold;
+        padding: 1vh ;
+        font-family: monospace;
+    }
+    
+
+}
